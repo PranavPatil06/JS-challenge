@@ -19,7 +19,15 @@ console.log(newstring);
 const raw = name.slice(1, -2);
 console.log(raw);
 
-const myName = "   Pranav Patil   "
+const myName = "   Pranav-Patil   "
 console.log(myName);
 console.log(myName.trim());
 
+const url = "https://www.youtube.com/watch?v=abc123"
+
+console.log(url.replace("youtube", "vimeo"));
+
+console.log(url.includes('Pranav'));
+console.log(url.includes('com'));
+
+console.log(myName.split('-'));
