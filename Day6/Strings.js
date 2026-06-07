@@ -22,3 +22,4 @@ console.log(raw);
 const myName = "   Pranav Patil   "
 console.log(myName);
 console.log(myName.trim());
+
